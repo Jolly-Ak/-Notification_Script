@@ -11,4 +11,10 @@ if __name__ == '__main__':
     corps = "Ceci est un e-mail envoyé via l'API Gmail avec OAuth 2.0."
 
     for destinataire in emails:
+        #ask for     inpute 
+        sujet = input("subject of the mail")
+        corps = input("body of the mail")
+
+
         envoyer_email(service, destinataire, sujet, corps)
+dsd
